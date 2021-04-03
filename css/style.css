@@ -1,0 +1,85 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            .clearflix::after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+            
+            .debug {
+                width: 100%;
+                min-height: 40px;
+                background-color: lightgreen;
+            }
+            
+            .hidden-lg {
+                display: none;
+            }
+            
+            .visible-lg {
+                display: block;
+            }
+            
+            .nav-up {
+                height: 100px;
+                width: 100%;
+                background-color: rgb(235, 146, 146);
+            }
+            /* vione desktop  nav  */
+            
+            .txt-scrool,
+            .txt-scrool-dx {
+                width: 50%;
+                height: 100%;
+                background-color: aquamarine;
+            }
+            
+            .txt-scrool-dx {
+                background-color: blanchedalmond;
+            }
+            
+            .sx-lg {
+                display: flex;
+            }
+            
+            @media all and (max-width: 800px) {
+                body {
+                    background-color: rgb(175, 111, 16);
+                }
+                .nav-up {
+                    height: 100px;
+                    width: 100%;
+                    background-color: rgb(240, 192, 192);
+                    text-align: center;
+                }
+                .box-nav-tablet-sx {
+                    width: 200px;
+                    background-color: rgb(83, 230, 78);
+                    height: 100px;
+                    padding: 20px;
+                }
+                .txt-music {
+                    color: azure;
+                    display: inline-block;
+                    margin: 5px;
+                }
+                .fa,
+                .fas {
+                    font-weight: 900;
+                    font-size: 30px;
+                    color: aliceblue;
+                }
+                .txt-scrool {
+                    display: none;
+                }
+                .visible-sm {
+                    display: block;
+                }
+                .hidden-sm {
+                    display: none;
+                }
+            }
